@@ -1,6 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar,  Container, Nav, NavbarBrand, NavDropdown } from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faMessage, faCartShopping, faSearch, faHeart, faPerson } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   return (
@@ -16,7 +18,7 @@ const Header = () => {
 
           <Navbar.Collapse id="basic-navbar-nav">
 
-            <Nav className="m-auto">
+            <Nav className="mx-auto">
 
               <Nav.Link href="#home">Home</Nav.Link>
 
@@ -39,6 +41,10 @@ const Header = () => {
             </Nav>
 
           </Navbar.Collapse>
+
+          <NavbarBrand>
+          <Nav.Link href="#home">Home</Nav.Link>
+          </NavbarBrand>
 
         </Container>
       </Navbar>
