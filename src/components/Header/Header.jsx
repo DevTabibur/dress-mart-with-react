@@ -54,10 +54,12 @@ const Header = () => {
     </div>
     </div>
 
-      <Navbar bg="light" expand="lg">
+    {/* ডিজাইন বাকি আছে  */}
+    
+      <Navbar bg="white" expand="lg" className="container-fluid">
         <Container>
           <NavbarBrand href="#home">
-            <h1>DevTabibur</h1>
+            <h3>DevTabibur</h3>
           </NavbarBrand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
