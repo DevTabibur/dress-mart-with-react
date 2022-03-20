@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --header-top-bg: #e91e63;
+}
+.navbar-icons{
+    margin: 0 15px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.header-top{
+    background-color: var(--header-top-bg);
+    padding-top: 10px ;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.header-top p{
+    margin-top: 10px;
+    display: inline-flex;
+    margin-right: 15px;
+}
+.header-top-icon{
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.shop-now-btn{
+    text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 10px;
+    transition: .5s;
+}
+.shop-now-btn:hover{
+    color: #000;
+    text-decoration: underline;
+}
+.header-top-percentage{
+    margin-left: 10px;
+}
