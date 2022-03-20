@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Slide from './components/Slide/Slide';
 import BannerImages  from './components/BannerImages';
 import { useState } from 'react';
+import Footer from './components/Footer/Footer';
 
 /*
 this website is taking the design from
@@ -19,6 +20,7 @@ function App() {
     <>
       <Header></Header>
       <Slide></Slide>
+      <Footer></Footer>
     </>
   );
 }
